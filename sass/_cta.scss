@@ -1,0 +1,42 @@
+.cta {
+    padding: 5rem 0 7rem;
+    background-color: $soft-blue;
+
+    p {
+        color: #fff;
+        text-transform: uppercase;
+        letter-spacing: 5px;
+        margin-bottom: 2rem;
+    }
+
+    h2 {
+        font-size: 3rem;
+        color: #fff;
+        width: 50%;
+        margin-inline: auto;
+        line-height: 1.2;
+        margin-bottom: 2rem;
+    }
+
+    &__form {
+        text-align: center;
+        width: 50%;
+    }
+
+    form {
+        display: flex;
+        align-items: center;
+        gap: 2rem;
+
+        input {
+            border: none;
+            outline: none;
+            padding: 1.2rem 1rem;
+            font-family: 'Rubik', sans-serif;
+            color: $grayish-blue;
+            font-size: 1.5rem;
+            border-radius: .5rem;
+        }
+    }
+
+}

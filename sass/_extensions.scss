@@ -1,0 +1,52 @@
+.extensions {
+    padding-bottom: 8rem;
+
+    &__container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2rem;
+    }
+
+    &__card {
+        padding: 2rem;
+        text-align: center;
+        box-shadow: 0 .3rem 3rem rgba(rgba(0, 0, 0, 0.384), 0.1);
+        border-radius: 1.5rem;
+        position: relative;
+
+        img {
+            width: 10rem;
+            margin-inline: auto;
+        }
+
+        h3 {
+            color: $very-dark-blue;
+            font-size: 1.9rem;
+            line-height: 1.7;
+            font-weight: 500;
+            margin: 2.5rem 0 0;
+        }
+
+        p {
+            font-size: 1.5rem;
+            margin-bottom: 5rem;
+
+        }
+        hr {
+            position: absolute;
+            width: 100%;
+            left: 0;
+            border: none;
+            bottom: 9rem;
+            border-top: 5px dotted rgba($grayish-blue, 0.2);
+        }
+    }
+
+    &__card:nth-child(2) {
+        transform: translateY(3rem);
+    }
+
+    &__card:last-child {
+        transform: translateY(6rem);
+    }
+}

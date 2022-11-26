@@ -1,0 +1,41 @@
+// container
+.container {
+    width: $container-width-md;
+    margin: 0 auto;
+}
+
+
+// buttons
+.btn {
+    display: inline-block;
+    border: 1px solid transparent;
+    padding: 1.2rem 3rem;
+    font-weight: 500;
+    border-radius: .5rem;
+    transition: all 300ms ease;
+}
+
+.btn-red {
+    background-color: $soft-red;
+    color: #fff !important;
+
+    &:hover {
+        color: $soft-red !important;
+        background-color: transparent;
+        border-color: $soft-red;
+    }
+}
+
+.btn-blue {
+    background-color: $soft-blue;
+    color: #fff !important;
+    font-size: 1.2rem;
+
+    &:hover {
+        color: $soft-blue !important;
+        background-color: transparent;
+        border-color: $soft-blue;
+    }
+}
+
+

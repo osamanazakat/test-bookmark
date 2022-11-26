@@ -1,0 +1,49 @@
+.faqs {
+    padding-bottom: 10rem;
+
+    &__container {
+        padding-bottom: 5rem;
+    }
+
+    &__card {
+        width: 60%;
+        margin: 0 auto;
+        padding: 1.5rem 0;
+        border-top: 1px solid rgba($grayish-blue, 0.35);
+    }
+
+    &__question {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        cursor: pointer;
+
+        &:hover p {
+            color: $soft-red;
+        }
+
+        p {
+            font-size: 2rem;
+            color: $very-dark-blue;
+            font-weight: 500;
+            line-height: 1.8;
+            transition: all 300ms ease;
+        }
+
+        img {
+            width: 2rem;
+            margin-right: 2rem;
+        }
+    }
+
+    &__answer {
+        font-size: 1.5rem;
+        padding: 2.5rem 0;
+        display: none;
+    }
+
+    a {
+        margin-left: 50%;
+        transform: translateX(-50%);
+    }
+}
